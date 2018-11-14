@@ -11,6 +11,12 @@ div.twoColumn {
   grid-template-columns: repeat(1fr, 12);
 }
 
+@media screen and (max-width: 800px) {
+  div.twoColumn {
+    display: block;
+  }
+}
+
 section.sidebarColumn {
   grid-column-start: 1;
   grid-column-end: 4;
