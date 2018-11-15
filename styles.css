@@ -1,61 +1,34 @@
-body#home {
-  height: 100%;
-}
-
-nav.navigation {
-  background-color: green;
-}
 div.twoColumn {
   display: grid;
-  height: 100vh;
-  grid-template-columns: repeat(1fr, 12);
+  min-height: 100vh;
+  grid-template-columns: repeat(12, 1fr);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 954px) {
   div.twoColumn {
     display: block;
   }
 }
 
-section.sidebarColumn {
+/* Sidebar */
+
+div.sidebarColumn {
   grid-column-start: 1;
   grid-column-end: 4;
-  background-color: #333;
-  width: 100%;
-}
-
-section.sidebarColumn > div.sidebarContent {
-  padding: 1rem;
-}
-
-section.sidebarColumn > div.sidebarContent > ul.links > li,
-section.sidebarColumn > div.sidebarContent > ul.links > li > a {
-  color: white;
-}
-
-section.sidebarColumn > div.sidebarContent > div.headshotPlaceholder {
   background-color: grey;
-  height: 10rem;
-  width: 10rem;
-  border-radius: 50%;
-  margin: 0 auto;
 }
 
-div.mainColumn > section {
-  padding: 2rem;
+div.sidebarColumn > div.sidebarContent {
+  color: red;
 }
+
+/* Main column */
 
 div.mainColumn {
   grid-column-start: 4;
-  grid-column-end: 12;
-  width: 100%;
+  grid-column-end: 13;
 }
 
-div.mainColumn > section.tagline {
-  background-color: #eee;
-  min-height: 8rem;
-}
-
-footer.footer {
-  background-color: yellow;
+div.mainColumn > div.mainContent {
+  color: green;
 }
