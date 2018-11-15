@@ -17,7 +17,7 @@ A brief introduction to web development
 - Once logged in to GitHub, fork this repository (top right)
 - Create a new folder for your website (on your Desktop for example)
 - Open the folder in Visual Studio Code
-- Enter `ctrl + \`` to open the terminal
+- Enter ` ctrl + \` ` to open the terminal
 - If on Windows, enter `bash`
 - Go to your browser and click "Clone or download" on the top right of your forked repository and copy the URL
 - In Visual Studio Code's terminal, type `git clone URL .`
