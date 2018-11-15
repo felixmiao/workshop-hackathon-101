@@ -15,7 +15,7 @@ div.twoColumn {
 div.sidebarColumn {
   grid-column-start: 1;
   grid-column-end: 4;
-  background-color: grey;
+  background-color: purple;
 }
 
 div.sidebarColumn > div.sidebarContent {
